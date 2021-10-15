@@ -7,7 +7,7 @@ plugins {
 }
 
 submit {
-  assignmentId = "H09" // do not change assignmentId
+  assignmentId = "h09" // do not change assignmentId
   studentId = null // TU-ID  z.B. "ab12cdef"
   firstName = null
   lastName = null
