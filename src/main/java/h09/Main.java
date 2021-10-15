@@ -1,4 +1,4 @@
-package H09;
+package h09;
 
 public class Main {
   public static void main(String[] args) {

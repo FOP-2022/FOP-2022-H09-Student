@@ -1,4 +1,4 @@
-package H09;
+package h09;
 
 import org.junit.jupiter.api.Test;
 
