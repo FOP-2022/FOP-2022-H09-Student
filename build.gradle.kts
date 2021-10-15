@@ -35,7 +35,7 @@ java {
 }
 
 application {
-  mainClass.set("H09.Main")
+  mainClass.set("h09.Main")
 }
 
 tasks {
