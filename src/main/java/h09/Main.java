@@ -10,7 +10,8 @@ public class Main {
      * Each of the lines in this method should pass through the compiler without error or warning.
      */
     static void shouldWork() {
-    /*    final Traits<Number, Number, Number> t1 = new Traits<>(
+        /*
+        final Traits<Number, Number, Number> t1 = new Traits<>(
             Integer.class::isInstance,
             Object::hashCode,
             (number, o) -> number.intValue() * o.hashCode(),
@@ -57,7 +58,8 @@ public class Main {
             integer -> 52,
             (Integer i, Number n) -> 2 * n.intValue(),
             0
-        );*/
+        );
+        */
     }
 
 
@@ -67,7 +69,8 @@ public class Main {
      * making sure that the code is no longer accepted by the compiler. by the compiler.
      */
     static void shouldNotWork() {
-    /*    final Traits<Number, Number, Number> t1 = new Traits<>(
+        /*
+        final Traits<Number, Number, Number> t1 = new Traits<>(
             (Integer i) -> i.compareTo(5) > 0,
             Object::hashCode,
             (number, o) -> number.intValue() * o.hashCode(),
@@ -90,6 +93,7 @@ public class Main {
             (Double d) -> 5,
             (Number n, Integer i) -> n.intValue() * i,
             12.2
-        );*/
+        );
+        */
     }
 }
