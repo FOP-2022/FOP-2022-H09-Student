@@ -94,6 +94,12 @@ public class Main {
             (Number n, Integer i) -> n.intValue() * i,
             12.2
         );
+        final Traits<Number, Number, Number> t5 = new Traits<>(
+            Integer.class::isInstance,
+            number -> number.intValue() * 10,
+            (Object o, Number number) -> o.hashCode() * number.doubleValue(),
+            12.2
+        );
         */
     }
 }
