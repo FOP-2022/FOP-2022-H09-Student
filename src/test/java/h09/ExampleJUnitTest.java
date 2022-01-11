@@ -1,9 +1,12 @@
 package h09;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ * An example JUnit test class.
+ */
 public class ExampleJUnitTest {
 
     @Test
