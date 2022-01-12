@@ -15,7 +15,8 @@ public class Main {
     }
 
     /**
-     * Each of the lines in this method should pass through the compiler without error or warning.
+     * Each of the statement in this method should pass through the compiler without error or
+     * warning.
      */
     static void shouldWork() {
         /*
@@ -71,8 +72,8 @@ public class Main {
     }
 
     /**
-     * Every single line of this method should cause a compiler error. Make sure that this
-     * requirement is met by commenting each line in this method individually, and making sure
+     * Every single statement of this method should cause a compiler error. Make sure that this
+     * requirement is met by commenting each statement in this method individually, and making sure
      * that the code is no longer accepted by the compiler.
      */
     static void shouldNotWork() {
